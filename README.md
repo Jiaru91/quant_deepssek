@@ -38,7 +38,6 @@
 - scikit-learn
 
 ### 数据采集
-- 自定义爬虫系统
 - Yahoo Finance API
 - 财报数据接口
 
@@ -72,21 +71,29 @@ cp .env.example .env
 # 编辑 .env 文件，配置必要的环境变量
 ```
 
-3. 初始化数据库
-```bash
-python scripts/recreate_table.py
-```
 
 ### 启动服务
 
-#### 使用Python直接启动
+#### 后端服务
+##### 使用Python直接启动
 ```bash
 uvicorn app.main:app --reload
 ```
 
-#### 使用Docker启动
+##### 使用Docker启动
 ```bash
 docker-compose up -d
+```
+
+#### 前端服务
+##### 使用Python直接启动
+```bash
+streamlit run app/FrontPoint/app.py
+```
+
+##### 使用Docker启动
+```bash
+docker-compose up -d frontend
 ```
 
 ## 项目结构
@@ -122,10 +129,7 @@ docker-compose up -d
 - test: 测试相关
 - chore: 其他修改
 
-## 测试
-```bash
-pytest tests/
-```
+
 
 ## 许可证
 
