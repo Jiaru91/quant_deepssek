@@ -19,4 +19,5 @@ pytest>=6.2.0
 httpx==0.25.1
 streamlit==1.32.0
 plotly==5.19.0
-sseclient-py==1.8.0 
+sseclient-py==1.8.0
+pydantic-settings>=2.0.0

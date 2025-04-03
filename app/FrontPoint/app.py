@@ -4,7 +4,7 @@ import pandas as pd
 import json
 import time
 
-API_BASE = "http://127.0.0.1:8000/api/v1/stock"
+API_BASE = "http://web:8000/api/v1/stock"
 
 st.set_page_config(page_title="AI量化分析系统", layout="centered")
 st.title("📈 AI量化分析系统")

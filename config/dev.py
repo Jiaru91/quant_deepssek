@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     # Database settings
     DB_USER: str = "jane"
     DB_PASSWORD: str = "060321"
-    DB_HOST: str = "localhost"
+    DB_HOST:str ="quant-db-1"
     DB_PORT: int = 5432
     DB_NAME: str = "quant_dev"
 

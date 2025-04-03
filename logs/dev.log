@@ -6577,3 +6577,6 @@
 2025-04-03 14:37:44,961 - openai._base_client - DEBUG - HTTP Response: POST https://api.deepseek.com/v1/chat/completions "200 OK" Headers({'date': 'Thu, 03 Apr 2025 13:37:45 GMT', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cache-control': 'no-cache', 'vary': 'origin, access-control-request-method, access-control-request-headers', 'access-control-allow-credentials': 'true', 'x-ds-trace-id': '66be0f091bdcd4a7ee5bae9c9716cd2d', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '92a8f65e6b390747-MAN'})
 2025-04-03 14:37:44,961 - openai._base_client - DEBUG - request_id: None
 2025-04-03 14:37:44,961 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-03 14:39:05,587 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-03 14:39:05,589 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-03 14:39:05,590 - httpcore.http11 - DEBUG - response_closed.complete
